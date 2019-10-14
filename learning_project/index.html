@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<head>
+</head>
+<meta name="dexcription" content="My very first website">
+<meta name="author" content="Mihax">
+<meta name="keywords" content="how to build website">
+<title>Elomordo</title>
+<link href="assets/css/layout.css" rel="stylesheet">
+<link href="assets/css/theme.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <nav class='nav'>
+        <div class="container">
+            <div class="logo">
+                <img  src="assets/img/logo.png" alt="Cloudie"/>
+            </div>
+            <ul class="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+<header>
+    <div class="title-wrapper">                            
+        <h1 class="header-title">
+            Nie bedzie niczego
+        </h1>    
+    </div>
+    <div class="subtitle-wrapper">
+    <h2 class="subtitle">
+        html5 css3 & javascript
+    </h2>
+</div>
+</header>
+
+<section class="call-to-action">
+    <div class="container">
+        <div class="intro">
+            <h3 class="section-title white">Call to action</h3>
+                <p>
+                You know you really want to click this button now.
+                </p>
+        </div>
+        <div class="intro right">
+            <a href="/" class="call-button">Click here</a>
+        </div>
+    </div>
+</section>
+
+<section class="works">
+    <div class="container">
+        <h3 class="section-title gray works">Works</h3>
+        <div class="column">
+            <img src="assets/img/cards1.jpg" alt="">            
+            <img src="assets/img/cards1.jpg" alt="">            
+        </div>
+        <div class="column">
+            <img src="assets/img/cards2.jpg" alt="">
+            <img src="assets/img/cards2.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <h3 class="section-title gray2">testimonials</h3>
+        <p>
+            Applicake chocolate cake wafer toffee pie souffle wafer. 
+            Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soulffle sweet roll jelly-o.
+        </p>
+    </div>
+</section>
+
+<section class="map">
+    <div class="container">
+        <h3 class="section-title white">located</h3>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <ul class="footer-menu white">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script>
+$(".subtitle-wrapper").on("click", function(){
+    $("call-to-action").slideToggle();
+});
+
+</script>
+
+</body>
+
+</html>
