@@ -1,0 +1,31 @@
+.nav {
+    background-color: rgb(117, 76, 39); /*#4F3824*/
+    color: rgb(185, 91, 91);
+}
+
+.white {
+    background-color: white;
+}
+
+body {
+    font: "Timber";
+}
+
+.menu li {
+    color: black;
+    font-size: 19px;
+    transition: transform 500ms;
+}
+
+.menu  :hover{
+    color: rgb(88, 10, 10);
+    text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+    transform: scale(1.2);
+    font-weight: bold;
+    transition: transform 500ms;
+}
+
+header {
+    background-image: url("../img/header.resized.jpg");
+    background-position: center center;
+}

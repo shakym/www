@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+.nav {
+    height: 120px;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 320px;
+    padding-top: 5px;
+    transform: scale(0.95);  
+    transition: 500ms;
+}
+
+.logo:hover {
+    transform: scale(1);
+    transition: 500ms;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: 980px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 25px;
+    width: 45px;
+    line-height: 28px;
+    vertical-align: middle;
+}
+
+header {
+    height: 590px;
+    width: 100%;
+
+
+}
