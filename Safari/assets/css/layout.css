@@ -1,22 +1,25 @@
-body {
+body, h1 {
     margin: 0;
 }
 .nav {
-    height: 120px;
+    height: 85px;
     width: 100%;
 }
 
 .logo {
     float: left;
-    width: 320px;
-    padding-top: 5px;
+    width: 260px;
+    margin-top: 8px; ;
     transform: scale(0.95);  
     transition: 500ms;
+    height: 66px;
+    background-image: url("../img/xd1.png");
 }
 
 .logo:hover {
     transform: scale(1);
     transition: 500ms;
+    background-image: url("../img/xd1_white.png");
 }
 
 ul {
@@ -42,7 +45,8 @@ a {
 .menu {
     display: inline-block;
     float: right;
-    padding-top: 10px;
+    margin: 0;
+    padding-top:5px;
 }
 
 .menu li {
@@ -58,4 +62,25 @@ header {
     width: 100%;
 
 
+}
+
+.title-wrapper {
+    padding-top: 150px;
+    
+}
+
+.brief-info {
+    height: 250px;
+    background-color: #bfb48f;
+}
+
+.info-wrapper {
+    padding-top: 30px;
+    width: 40%;
+    height: 155px;
+
+}
+
+.brief-info .container {
+    padding-top: 30px;
 }

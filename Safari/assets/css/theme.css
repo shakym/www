@@ -1,6 +1,6 @@
 .nav {
-    background-color: rgb(117, 76, 39); /*#4F3824*/
-    color: rgb(185, 91, 91);
+    background-color: #754c27; /*#4F3824*/
+    
 }
 
 .white {
@@ -12,20 +12,46 @@ body {
 }
 
 .menu li {
-    color: black;
+    
     font-size: 19px;
-    transition: transform 500ms;
+    transition: color 0.3s ease-in-out;
+    transition: 0.3s;
 }
 
 .menu  :hover{
-    color: rgb(88, 10, 10);
+    color: #fff;
     text-shadow: 0 0 .65px #333, 0 0 .65px #333;
     transform: scale(1.2);
-    font-weight: bold;
-    transition: transform 500ms;
+    cursor: pointer;    
+    transition: 0.3s;
 }
 
 header {
     background-image: url("../img/header.resized.jpg");
     background-position: center center;
+    background-size: cover;
+    
+}
+
+h1 {
+    padding: 8px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    font-size: 45px;
+    font-style: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.header-title {
+    text-align: center;
+    opacity: 0.8;
+    background-color: #582707;
+    width: 880px;
+    margin: auto auto;
+}
+
+.info-wrapper {
+    border: white solid 5px;
 }
